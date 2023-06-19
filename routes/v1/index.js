@@ -9,4 +9,6 @@ router.get('/test', dialogController.test)
 
 router.get('/joueurs', dialogController.allJoueurs)
 
+router.get("/joueurs/:id", dialogController.getJoueurById);
+
 module.exports = router
